@@ -1,0 +1,763 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}  
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    width: 100%;
+    height: 100%;
+} 
+.graph 
+{
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    border-left: 1px solid white; 
+    border-bottom: 1px solid white; 
+ margin-left: 20px;
+    align-items: center;
+}
+.container 
+{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+
+} 
+.header 
+{
+    height: 10vh;
+    width: 100%; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 1px solid white;
+
+}  
+.logo h3 
+{
+    font-size: 30px;
+}
+.header_context 
+{
+    display: flex;
+   
+}   
+
+
+.header_end
+{
+    display: flex;
+} 
+.header_context>*,.header_end>* 
+{
+    margin-left: 35px; 
+    
+
+}   
+.user_name 
+{
+    color: white
+} 
+.symbol
+{
+    height: 20px;
+    width: 20px;
+    color: green; 
+    margin-left: 20px;
+}
+.header_end>* 
+{
+    color: white
+}
+.heading_val 
+{
+    color: aqua;
+}  
+.toggler 
+{
+    display: none;
+} 
+.context 
+{
+    margin-top: 30px;
+    height: 85vh; 
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+.sidebar 
+{
+    width: 20%;
+     background-color: rgb(20, 16, 16,2);;
+    height: 100%;
+    border-radius: 20px;
+    position: relative; 
+  
+} 
+.mainbar 
+{
+    width: 70%;
+    background-color: rgb(20, 16, 16);
+  
+    height: 100%;
+    border-radius: 20px;
+}
+.rapid_values,.user_name
+{
+    color: black; 
+    
+} 
+.context 
+{
+    color: white;
+
+} 
+.header_nifty 
+{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.249); 
+} 
+
+.shares 
+{
+    border-right: 1px solid rgba(255, 255, 255, 0.336);
+    height: 100%;
+   padding-top:22px;
+  
+} 
+.shares_two 
+{
+    height: 100%;
+   padding-top: 20px;
+}
+.shares>* 
+{
+    margin-right: 20px;
+} 
+.nifty 
+{
+    color: green;
+} 
+.bancity 
+{
+    color: red;
+} 
+.shares_para,.shares_to_para
+{
+    color:rgba(255, 255, 255, 0.74)
+}  
+
+.input_val  input
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(20, 16, 16); 
+    margin-top: 20px;  
+    color: white; 
+    margin-left: 40px;
+    
+
+}   
+.input_val  input:hover
+{
+outline: 1px solid green;
+border:none
+}
+.input_val  input::placeholder 
+{
+    font-size: 10px; 
+  display: flex;
+ 
+
+}
+.fa-magnifying-glass 
+{
+    position: absolute; 
+    font-size: 10px;
+  right: 50px;
+  top: 104px;
+} 
+.stock_storage 
+{
+    display: flex; 
+    flex-direction: column;
+} 
+.stock_storage div 
+{
+    display: flex; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.087);
+    
+   
+}   
+.stock_storage div>* 
+{
+   height: 50px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+.name 
+{
+    color: white; 
+    height: 10vh;
+    width: 100%; 
+    padding: 30px; 
+    text-transform: uppercase; 
+}
+.transaction_one 
+{
+    display: flex;
+    justify-content: space-around;
+} 
+.amount 
+{
+    height: 15vh;
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.217);
+} 
+.yellow_wallet  
+{
+    background-color: rgba(0, 0, 0, 0.217);
+    height: 15vh;
+    width: 520px; 
+
+} 
+.amount,.yellow_wallet 
+{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+} 
+.wallet__one 
+{
+    color: rgb(227, 18, 227);
+    position: relative; 
+
+} 
+.wallet__two 
+{
+    color: rgb(255, 255, 0)
+} 
+.wallet__one,.wallet__two 
+{
+ font-size: 30px;
+ margin-right: 10px;
+} 
+.wallet 
+{
+    display: flex;
+} 
+.wallet>* 
+{
+    margin-top: 10px;
+} 
+.transaction_two 
+{
+    background-color: rgba(0, 0, 0, 0.217);
+    height: 10vh;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 5px; 
+    display: flex; 
+    font-size: 10px;
+    
+}  
+.transaction_two>* 
+{
+    margin-left: 50px; 
+}
+
+.fa-upload 
+{
+    color: rgb(0, 191, 255);
+    
+} 
+.trans_one 
+{
+    border-right:1px solid rgba(255, 255, 255, 0.285);
+    height: 100%;
+    width: 30%;
+    position: relative;
+} 
+.upload 
+{
+    position: absolute;
+    bottom: 12px; 
+    color: white; 
+    padding: 5px;
+    border: 1px solid aqua; 
+    border-radius: 20px;;
+} 
+.tra_two_one,.tra_two_two 
+{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
+    font-size: 10px; 
+   margin-top: 2px;
+} 
+.tra_two_one>* 
+{
+    margin: 5px; 
+    margin-top: 15px;
+} 
+.trans_two 
+{
+    height: 100%;
+    width: 100% ;
+    font-size: 10px;
+} 
+.circle_bar 
+{
+    color: white;
+    height: 10vh;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}   
+
+.circle_barOne 
+{
+    height: 100%;
+    width: 50%;
+    
+    border-right: 1px solid rgba(255, 255, 255, 0.288);
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.circle_barTwo 
+{
+    height: 100%;
+    width: 50%;
+  
+    border-right: 1px solid rgba(255, 255, 255, 0.288);
+    margin-left: 5px;
+    border-radius: 5px; 
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+} 
+.circle_one 
+{
+    height: 70px;
+    width: 70px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    
+} 
+.circle_two 
+{
+    height: 60px;
+    width: 60px;
+    border: 1px solid green;
+    border-radius: 50%; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+} 
+.circl_one_tws
+{
+    height:70px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.circl_two_tws_tws
+{
+    height:60px;
+    width: 60px;
+    border: 1px solid red;
+    border-radius: 50%; 
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;
+}  
+.finally 
+{
+    position: relative;
+}
+.king
+{
+    position: absolute;
+    left: 20%;
+}
+@media only screen and (max-width: 900px)
+{
+  * 
+  {
+overflow: hidden;
+  }
+ .circle_bar 
+ {
+    font-size: 10px;
+ }
+    .amount,.yellow_wallet 
+{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}   
+.circl_one_tws,.circle_one 
+{
+    height: 70px;
+    width: 70px;
+} 
+.circl_two_tws_tws,.circle_two
+{
+    height: 50px;
+    width: 50px;
+}
+.tra_two_one,.tra_two_two  
+{
+    font-size: 10px;
+}
+    .name 
+{
+    color: white; 
+    height: 10vh;
+    width: 100%; 
+    padding: 30px; 
+    text-transform: uppercase; 
+}
+.transaction_one 
+{
+    display: flex;
+    justify-content: space-evenly; 
+ 
+} 
+.amount 
+{
+    height: 15vh;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.217);
+} 
+.yellow_wallet  
+{
+    background-color: rgba(0, 0, 0, 0.217);
+    height: 15vh;
+    width: 150px; 
+
+} 
+.amount,.yellow_wallet 
+{
+    border-radius: 10px;
+}
+    .sidebar 
+    {
+        width: 40%;
+        background-color: rgba(20, 16, 16, 0.808);
+        height: 100%; 
+        font-size: 15px;
+        position: relative;
+    }   
+    .shares,.shares_two 
+    {
+        padding-top: 0px;
+    }
+    .mainbar 
+{
+    width: 50%;
+    background-color: rgb(20, 16, 16);
+    height: 100%;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+   
+}
+    
+ .toggler
+ {
+    display: block;
+ } 
+ .header_end
+ {
+    display: none; 
+
+ } 
+ .navbar
+ {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;  
+    position: absolute;
+    right: 20px; 
+    top: 90px; 
+    border-radius: 20px;
+    background-color: white;
+
+
+ }   
+ .navbar>* 
+ {
+   
+   background-color: white;
+   
+    padding: 10px; 
+    margin-top: 20px;
+ }
+.user_name,.rapid_values
+{
+    
+    background-color: white;
+    
+    border: none;  
+    
+    outline: none;
+} 
+ 
+ .fa-eye
+ {
+    color: green; 
+    font-size: 30px; 
+    margin-right:10px;
+ }  
+ .logo h1
+ {
+    display: block;
+ }
+.eye 
+{ 
+    color:white
+} 
+.input_val  input
+{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(20, 16, 16); 
+    margin-top: 20px;  
+    margin-left:0px;
+    color: white;
+    
+
+}  
+.input_val  input::placeholder 
+{
+    font-size: 9px; 
+  display: flex;
+ 
+
+}
+.fa-magnifying-glass 
+{
+    position: absolute; 
+    font-size: 9px;
+  right: 30px;
+  top: 104px;
+} 
+.header_end p 
+{
+    color: black
+} 
+.transaction_two 
+{
+    background-color: rgba(0, 0, 0, 0.217);
+    height: 15vh;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: start;
+    align-items: start;
+} 
+
+.fa-upload 
+{
+    color: rgb(0, 191, 255);
+    
+} 
+.trans_one 
+{
+    border-right:1px solid rgba(255, 255, 255, 0.091);
+    height: 100%;
+    width: 40%;
+    position: relative;
+} 
+.upload 
+{
+    position: absolute;
+    bottom: 12px;
+} 
+.transaction_two>* 
+{
+    margin-left: 0px; 
+}
+.header_context 
+{
+    font-size: 10px;
+    margin-left: 4px;
+} 
+.fa-eye 
+{
+    font-size: 25px;
+    margin-right: 30px;
+} 
+.logo h3 
+{
+    font-size: 30px;
+   
+} 
+
+.header>*
+{
+    margin-top: 10px;
+}
+
+ }
+@media  screen and (min-width:1536px ) 
+{
+    .logo h3 
+    {
+        font-size: 20px;
+        margin-left: 30px;
+       
+    }
+} 
+@media screen and (max-width:414px){ 
+    * 
+    {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }  
+    .tra_two_one,.tra_two_two 
+{
+    display: flex; 
+    width: 100%;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: space-between;
+    font-size: 10px; 
+   margin-top: 20px; 
+   color: white
+} 
+    .immerse 
+    {
+        margin-left: 10px;
+    } 
+    
+    .shares,.sharestwo 
+    {
+        font-size: 10px; 
+        
+    } 
+    .shares_two>* 
+    {
+        font-size: 10px;
+    } 
+    .inner_input
+    {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+        width: 10px;
+    }  
+
+    .fa-magnifying-glass
+    {
+        font-size: 12px;
+        position: absolute; 
+        right: 10px;  
+        top: 110px;
+        color: green;
+        
+    } 
+    .name 
+    {
+        font-size: 10px;
+    } 
+    .amount,.yellow_wallet 
+    {
+        font-size: 10px;
+    } 
+    .wallet__two,.wallet__one 
+    {
+        font-size: 20px;
+    } 
+    .trans_one p 
+    {
+        font-size: 10px;
+    } 
+    .nifty_para 
+    {
+  text-transform: lowercase; 
+  margin-top: 10px;
+  margin-left: 8px;
+    } 
+    .shares_para 
+    {
+        margin-left: 10px;
+    } 
+    .stock_storage 
+    {
+        font-size: 10px;
+    } 
+    .transaction_two 
+    { 
+        margin-top: 0px;
+        padding-top: 0px;
+        flex-direction: column;
+    } 
+    .upload
+    {
+        border: none
+    } 
+    .trans_one 
+    {
+        display: flex;
+
+    } 
+   .shares_to_para 
+   {
+    margin-left: 10px;
+   }
+} 
+@media screen and (max-width:1280px) 
+{
+    .input_val input 
+    {
+        height: 30px;
+        width: 180px
+    }  
+    .trans_one p 
+    {
+        font-size: 10px;
+    } 
+}
